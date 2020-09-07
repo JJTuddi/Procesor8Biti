@@ -1,0 +1,17 @@
+mov reg0 20
+mov reg1 16
+mul reg0 reg1
+slr reg0
+mov reg2 17
+mov reg3 3
+mov reg4 19
+slr reg2
+slr reg4
+sub reg4 reg1
+mov reg0 reg4
+MUL REG0 REG3
+AND REG0 REG3
+MOV REG0 REG2
+MOV reG0 REG1
+INV REG0
+block
